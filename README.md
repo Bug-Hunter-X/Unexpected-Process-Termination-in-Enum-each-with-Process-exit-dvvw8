@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Elixir coding error involving the use of Process.exit within an Enum.each loop.  The code abruptly terminates before processing the entire list due to a premature exit signal. The solution showcases a safer and more predictable approach using a different iteration method.
